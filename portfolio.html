@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Sporano</title>
+    <link rel="stylesheet" href="styleportfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a id="anchor" href="index.html"><img src="image/fox 1.png" alt="fox1" id="logo"/></a>
+    <div class="box">
+    <p id="text">The soprano is the highest female voice type and they often take the leading female role. The vocal range for an operatic soprano is roughly from middle C up to the C two octaves above, though plenty of music particularly for coloratura sopranos ascends even further.</p>
+    <br>
+    <p id="text1">Sopranos are split into five major categories:</p> 
+    </div>
+    <div class="box">
+        <button onclick="playX()" >COlORATURA</button>
+        <button onclick="playY()">SOUBRETTE</button>
+        <button onclick="playZ()" >LYRIC</button>
+        <button onclick="playA()" >SPINTO</button>
+        <button onclick="playB()">DRAMATIC</button>
+    </div>
+        
+    <audio id="coloratura">
+        <source src="sound/coloratura.mp3">
+    </audio>
+    <audio id="soubrette">
+        <source src="sound/soubrette.mp3">
+    </audio>
+    <audio id="lyric">
+        <source src="sound/lyric.mp3">
+    </audio>
+    <audio id="spinto">
+        <source src="sound/spinto.mp3">
+    </audio>
+    <audio id="dramatic">
+        <source src="sound/dramatic.mp3">
+    </audio>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,8 +1,8 @@
 body {
     margin: 0px auto;
     background-image: url(image/background.jpg);
-    background-repeat: no-repeat;
-    background-position: inherit;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -30,7 +30,7 @@ header ul li {
     margin-top: 35px;
     font-size: 25px;
     float: right;
-    margin-right: 20px ;
+    margin-right: 50px ;
     padding-right: 20px;
 }
 
@@ -46,15 +46,14 @@ a:hover {
     width: 150px;
     height: 150px;
     margin: auto;
-}
-    
-#box-1 {
-    
     margin-top: 50px;
- 
 }
 
 main center {
     font-size: 40px;
     margin-top: 130px;
+}
+
+main div img {
+    margin-top: 5px;
 }
