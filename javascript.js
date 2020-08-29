@@ -3,6 +3,7 @@
      let z = document.getElementById("lyric");
      let a = document.getElementById("spinto");
      let b = document.getElementById("dramatic");
+     let block = document.getElementById("block");
  
         function playX() { 
             x.play()   
@@ -11,6 +12,10 @@
             document.getElementById("text1").innerHTML = " ";
             document.getElementById("text").style.fontWeight = "bolder";
             document.getElementById("anchor").href = "portfolio.html";
+            block.style.backgroundColor = "black";
+            block.style.borderRadius = "25px";
+            block.style.opacity = "0.8";
+            document.getElementById("text").style.padding = "15px";
         } 
 
         function playY(){
@@ -20,6 +25,10 @@
             document.getElementById("text1").innerHTML = " ";
             document.getElementById("text").style.fontWeight = "bolder";
             document.getElementById("anchor").href = "portfolio.html";
+            block.style.backgroundColor = "black";
+            block.style.borderRadius = "25px";
+            block.style.opacity = "0.8";
+            document.getElementById("text").style.padding = "35px";
         } 
 
         function playZ() { 
@@ -29,6 +38,10 @@
             document.getElementById("text1").innerHTML = " ";
             document.getElementById("text").style.fontWeight = "bolder";
             document.getElementById("anchor").href = "portfolio.html";
+            block.style.backgroundColor = "black";
+            block.style.borderRadius = "25px";
+            block.style.opacity = "0.7";
+            document.getElementById("text").style.padding = "20px";
         } 
 
         function playA() { 
@@ -38,6 +51,10 @@
             document.getElementById("text1").innerHTML = " ";
             document.getElementById("text").style.fontWeight = "bolder";
             document.getElementById("anchor").href = "portfolio.html";
+            block.style.backgroundColor = "black";
+            block.style.borderRadius = "25px";
+            block.style.opacity = "0.7";
+            document.getElementById("text").style.padding = "5px";
         } 
 
         function playB() { 
@@ -47,4 +64,8 @@
             document.getElementById("text1").innerHTML = " ";
             document.getElementById("text").style.fontWeight = "bolder";
             document.getElementById("anchor").href = "portfolio.html";
+            block.style.backgroundColor = "black";
+            block.style.borderRadius = "25px";
+            block.style.opacity = "0.7";
+            document.getElementById("text").style.padding = "5px";
         } 
