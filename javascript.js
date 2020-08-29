@@ -15,7 +15,7 @@
             block.style.backgroundColor = "black";
             block.style.borderRadius = "25px";
             block.style.opacity = "0.8";
-            document.getElementById("text").style.padding = "15px";
+            document.getElementById("text").style.padding = "25px";
         } 
 
         function playY(){
@@ -41,7 +41,7 @@
             block.style.backgroundColor = "black";
             block.style.borderRadius = "25px";
             block.style.opacity = "0.7";
-            document.getElementById("text").style.padding = "20px";
+            document.getElementById("text").style.padding = "30px";
         } 
 
         function playA() { 
@@ -54,7 +54,7 @@
             block.style.backgroundColor = "black";
             block.style.borderRadius = "25px";
             block.style.opacity = "0.7";
-            document.getElementById("text").style.padding = "5px";
+            document.getElementById("text").style.padding = "15px";
         } 
 
         function playB() { 
@@ -67,5 +67,5 @@
             block.style.backgroundColor = "black";
             block.style.borderRadius = "25px";
             block.style.opacity = "0.7";
-            document.getElementById("text").style.padding = "5px";
+            document.getElementById("text").style.padding = "20px";
         } 
